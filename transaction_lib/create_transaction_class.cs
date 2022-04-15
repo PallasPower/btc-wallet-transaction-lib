@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace Pallas.transaction
 {
-    public class createTransaction
+    public class transaction
     {
-        public bool create()
+        public float price;
+        public string[] currency;
+
+        public transaction()
         {
-            bool isTransactionCompleted = false;
-            return isTransactionCompleted;
+            price = 20.0f;
         }
     }
+
+   
 }
